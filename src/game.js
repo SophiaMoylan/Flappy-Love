@@ -32,9 +32,9 @@ let gameStarted = false;
 
 // Preload assets (images)
 function preload() {
-  this.load.image('bird', 'valentines_flappy.png');
-  this.load.image('pipe', 'pipe.png');
-  this.load.image('background', 'background.png');
+  this.load.image('bird', 'assets/valentines_flappy.png');
+  this.load.image('pipe', 'assets/pipe.png');
+  this.load.image('background', 'assets/background.png');
 }
 
 let firstPlay = true; // Flag to track first play
